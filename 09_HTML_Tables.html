@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table_Tag</title>
+    <style>
+        #one {
+            align-content: center;
+            width: 1080px;
+        }
+
+        #two {
+            border: 5px solid yellow;
+            width: 1080px;
+        }
+
+        #three {
+            border: 5px solid;
+            border-collapse: collapse;
+            width: 1080px;
+        }
+
+        #four {
+            border: 5px solid green;
+            padding: 10px;
+            width: 1080px;
+        }
+
+        #five {
+            border: 5px solid gold;
+            text-align: center;
+            width: 1080px;
+        }
+
+        #six {
+            border: 5px solid maroon;
+            width: 1080px;
+        }
+
+        #seven {
+            border: 5px solid red;
+            width: 1080px;
+        }
+
+        #eight {
+            background-color: whitesmoke;
+            border: 1px dotted black;
+            border-collapse: collapse;
+            text-align: center;
+            text-decoration: line-through;
+            text-decoration-color: aquamarine;
+            font-kerning: normal;
+            width: 1080px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <center>
+        <!-- Simple Table Example -->
+        <h2>1.Simple Table Example</h2>
+        <table>
+            <tr>
+                <th>SNO</th>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Sammy</td>
+                <td>HYD</td>
+                <td>67890</td>
+                <td>xyz@xyz</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Samuals</td>
+                <td>HYD</td>
+                <td>12345</td>
+                <td>abc@abc</td>
+            </tr>
+        </table> <br><br>
+        <!-- Table with Border all sides -->
+        <h2>2.Table with Border all sides</h2>
+        <table id="two" border="1">
+            <tr>
+                <th>SNO</th>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Sammy</td>
+                <td>HYD</td>
+                <td>67890</td>
+                <td>xyz@xyz</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Samuals</td>
+                <td>HYD</td>
+                <td>12345</td>
+                <td>abc@abc</td>
+            </tr>
+        </table><br><br>
+        <!-- Table with Border Collapse -->
+        <h2>3.Table with Border Collapse</h2>
+        <table id="three" border="1">
+            <tr>
+                <th>SNO</th>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Sammy</td>
+                <td>HYD</td>
+                <td>67890</td>
+                <td>xyz@xyz</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Samuals</td>
+                <td>HYD</td>
+                <td>12345</td>
+                <td>abc@abc</td>
+            </tr>
+        </table><br><br>
+        <!-- Table With Padding -->
+        <h2>4.Table With Padding</h2>
+        <table id="four" border="1">
+            <tr>
+                <th>SNO</th>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Sammy</td>
+                <td>HYD</td>
+                <td>67890</td>
+                <td>xyz@xyz</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Samuals</td>
+                <td>HYD</td>
+                <td>12345</td>
+                <td>abc@abc</td>
+            </tr>
+        </table><br><br>
+        <!-- Table With Text Align -->
+        <h2>5.Table With Text Align</h2>
+        <table id="five" border="1">
+            <tr>
+                <th>SNO</th>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Sammy</td>
+                <td>HYD</td>
+                <td>67890</td>
+                <td>xyz@xyz</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Samuals</td>
+                <td>HYD</td>
+                <td>12345</td>
+                <td>abc@abc</td>
+            </tr>
+        </table><br><br>
+        <!-- Table with Col Span -->
+        <h2>6.Table with Col Span</h2>
+        <table id="six" border="1">
+            <tr>
+                <th colspan="2">SNO</th>
+                <th colspan="2">Name</th>
+                <th colspan="2">Address</th>
+                <th colspan="2">Mobile</th>
+                <th colspan="2">Email</th>
+            </tr>
+            <tr>
+                <td colspan="2">1</td>
+                <td colspan="2">Sammy</td>
+                <td colspan="2">HYD</td>
+                <td colspan="2">67890</td>
+                <td colspan="2">xyz@xyz</td>
+            </tr>
+            <tr>
+                <td colspan="2">2</td>
+                <td colspan="2">Samuals</td>
+                <td colspan="2">HYD</td>
+                <td colspan="2">12345</td>
+                <td colspan="2">abc@abc</td>
+            </tr>
+        </table><br><br>
+        <!-- Table With Row Span -->
+        <h2>7.Table With Row Span</h2>
+        <table id="seven" border="1">
+            <tr>
+                <th>SNO</th>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Sammy</td>
+                <td>HYD</td>
+                <td>67890</td>
+                <td>xyz@xyz</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Samuals</td>
+                <td>HYD</td>
+                <td>12345</td>
+                <td>abc@abc</td>
+            </tr>
+
+        </table><br><br>
+        <!-- Custom Table with CSS -->
+        <h2>8.Custom Table with CSS</h2>
+        <table id="eight" border="1" cellpadding="20">
+            <tr>
+                <th>SNO</th>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Sammy</td>
+                <td>HYD</td>
+                <td>67890</td>
+                <td>xyz@xyz</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Samuals</td>
+                <td>HYD</td>
+                <td>12345</td>
+                <td>abc@abc</td>
+            </tr>
+        </table>
+    </center>
+</body>
+</html>

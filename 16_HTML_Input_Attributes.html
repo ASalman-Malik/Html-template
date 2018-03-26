@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Input_Attributes</title>
+    <style>
+        div {
+            background-color: whitesmoke;
+            width: 350px;
+            height: 60px;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <!-- input attributes value , readonly , size , rows , cols-->
+        <!--Value attribute-->
+        <h3>Value attribute</h3>
+        <div><br>
+            <form>
+                <label>User Name</label>
+                <input type="text" value="Sammy">
+            </form>
+        </div><br>
+        <!--Readonly    -->
+        <h3>Readonly</h3>
+        <div><br>
+            <form>
+                <label>User Name</label>
+                <input type="text" value="Sammy" readonly>
+            </form>
+        </div><br>
+        <!-- Disabled   -->
+        <h3>Disabled</h3>
+        <div><br>
+            <form>
+                <label>User Name</label>
+                <input type="text" value="Sammy" disabled>
+            </form>
+        </div><br>
+        <!--Size    -->
+        <h3>Size</h3>
+        <div><br>
+            <form>
+                <label>User Name</label>
+                <input type="text" size="30">
+            </form>
+        </div><br>
+        <!--Rows,Columns    -->
+        <h3>Rows,Columns </h3>
+        <div><br>
+            <form>
+                <label>User Message</label>
+                <textarea rows="4" cols="13"></textarea>
+            </form>
+        </div><br>
+        <!--Required        -->
+        <h3>Required</h3>
+        <div><br>
+            <form>
+                <label>User Name</label>
+                <input type="text" required>
+                <input type="submit" value="Submit">
+            </form>
+        </div><br>
+        <!-- NOValidate       -->
+        <h3>No_Validate</h3>
+        <div><br>
+            <form novalidate>
+                <label>User Email</label>
+                <input type="email">
+                <input type="submit" value="Submit">
+            </form>
+        </div><br>
+        <!--Autofucus-->
+        <h3>Auto_Focus</h3>
+        <div><br>
+            <form>
+                <label>User Name</label>
+                <input type="text" autofocus><br>
+                <label>Password</label>
+                <input type="password"><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div><br>
+        <!--Pattern-->
+        <h3>Pattern</h3>
+        <div>
+            <form>
+                <label>Facebook User Name</label><br>
+                <label>Enter User Name</label>
+                <input type="text" pattern="^[A-Za-z0-9_]{1,32}$"><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div><br>
+        <!--    placeholder    -->
+        <h3>Place Holder</h3>
+        <div>
+            <form>
+                <input type="text" placeholder="Enter User Name">
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        <!-- HTML 5 Form Attributes required ,
+    no-validate , autofocus , pattern , placeholder -->
+
+    </center>
+</body>
+</html>

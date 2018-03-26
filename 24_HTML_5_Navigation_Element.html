@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Navigation Elements</title>
+    <link href="font-awesome.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="">
+    <style>
+        body{
+            margin: 0;
+        }
+        ul{
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav{
+            background-color: black;
+            overflow: hidden;/* mandatory */
+        }
+        ul li{
+            float: left;/* overflown background color */
+        }
+        li a{
+            text-decoration: none;
+            color: white;
+            padding: 15px 25px;
+            display: inline-block;/* mandatory field*/
+            font: 25px;
+        }
+        li a:hover{
+            background-color: seagreen;
+        }
+        li a.active{
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="#" class="active">
+                    <i class="fa fa-home"></i>Home</a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-envelop"></i>Contact</a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-"></i>Careers</a>
+            </li>
+            <li>
+                <a href="#">About Us</a>
+            </li>
+            <li>
+                <a href="#">Forum</a>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>
